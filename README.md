@@ -1,21 +1,7 @@
-# Atlas
 
-**TODO: Add description**
+<img width="1152" alt="image" src="https://user-images.githubusercontent.com/17634377/210700146-0c5de1bf-115f-4a26-8020-36b8cdb09284.png">
 
-## Installation
+# Visual Instruments Workshop
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `atlas` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:atlas, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/atlas>.
+This app is an example just for show how to illustrate software components.
 
