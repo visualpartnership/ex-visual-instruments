@@ -1,18 +1,17 @@
 defmodule Atlas do
   @moduledoc """
-  Documentation for `Atlas`.
+  Main module to make transactions through the authorizer.
   """
+  alias Atlas.Authorizer
 
-  @doc """
-  Hello world.
+  @doc"""
+  Main function to expose the authorizer functionality.
 
-  ## Examples
-
-      iex> Atlas.hello()
-      :world
-
+  You should provide an account and a transaction.
+  The Authorizer will validate the transaction and it will apply or reject the operation.
   """
-  def hello do
-    :world
+  def apply_transaction(account, transaction) do
+    Authorizer.authorize_transaction(account, transaction)
   end
+
 end
